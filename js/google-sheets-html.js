@@ -16,7 +16,7 @@ var visualization;
 
 function drawVisualization() {
     var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1Y0xJE37ETMyoz-m315votcbFzT3ViNsw3-WTaDU-Nv0/edit?usp=sharing');
-    query.setQuery('SELECT A, B, C, D label A "Duration", B "Song", C "Requested By", D "URL"');
+    query.setQuery('SELECT A, B, C, D label A "Medicine", B "Stock", C "Start Date", D "Out Date"');
     query.send(handleQueryResponse);
 }
 

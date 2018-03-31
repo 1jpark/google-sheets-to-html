@@ -15,8 +15,8 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1Y0xJE37ETMyoz-m315votcbFzT3ViNsw3-WTaDU-Nv0/edit?usp=sharing');
-    query.setQuery('SELECT A, B, C, D label A "Medicine", B "Stock", C "Start Date", D "Out Date"');
+    var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1-kvlJoHqDhKkZi1BuxWddEjIMesfKkb-Vw6ua_XXuIQ/edit?usp=sharing');
+    query.setQuery('SELECT A, B label A "Cakes", B "Stock in Shop"');
     query.send(handleQueryResponse);
 }
 

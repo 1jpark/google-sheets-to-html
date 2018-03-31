@@ -15,7 +15,7 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1-kvlJoHqDhKkZi1BuxWddEjIMesfKkb-Vw6ua_XXuIQ/edit?usp=sharing');
+    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1-kvlJoHqDhKkZi1BuxWddEjIMesfKkb-Vw6ua_XXuIQ&output=html&usp=sharing');
     query.setQuery('SELECT A, B label A "Cakes", B "Stock in Shop"');
     query.send(handleQueryResponse);
 }
